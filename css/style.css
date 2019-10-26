@@ -61,6 +61,24 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+h1 {
+	display: inline;
+	font: bold;
+	;
+}
+
+em {
+	display: inline;
+}
+header {
+	background-color: #1c3131;
+	color: lime;
+	padding: 25px;
+}
+
+.instructions-content {
+	border: solid;
+}
 
 
 
