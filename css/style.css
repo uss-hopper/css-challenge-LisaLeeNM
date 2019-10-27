@@ -61,24 +61,100 @@ body { width: 100%;}
 * * Pseudo Classes
 * * Attribute Selectors
 ******************************************************/
+body {
+	margin-left: 10px;
+}
+
 h1 {
 	display: inline;
 	font: bold;
-	;
 }
 
 em {
 	display: inline;
+	font-family: "Apple Chancery";
 }
+
 header {
 	background-color: #1c3131;
 	color: lime;
-	padding: 25px;
+	padding: 25px
 }
 
-.instructions-content {
-	border: solid;
+.about-me {
+	background-color: blue;
+	text-align: left;
+	/* padding-top: 30px;
+	padding-bottom: 30px;
+	 */
 }
 
+.instructions-content, h2 {
+	text-align: left;
+}
 
+.about-me h2 {
+	text-align: left;
+}
 
+h2 {
+	text-align: right;
+}
+
+.form-wrapper, h2 {
+	text-align: left;
+}
+
+table {
+	width: 100%;
+	border: .50px solid white;
+	color: lime;
+}
+
+td, th {
+	background-color: rgba(39, 40, 41, 0.96);
+	padding: 15px;
+	text-align: left;
+}
+
+img.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.instructions-wrapper {
+	border: 5px;
+	border-color: black;
+	text-align: left;
+}
+
+.form-wrapper {
+	background-color: green;
+	color: lime;
+	padding: 10px;
+}
+
+.form-wrapper label {
+	display: block;
+	padding: 5px;
+}
+
+.form-wrapper input {
+	padding: 5px;
+}
+
+button {
+	background-color: lime;
+	border: none;
+	padding: 5px;
+	width: 10%
+}
+
+footer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
