@@ -89,10 +89,55 @@ header h1 {
 	margin-right: 2rem;
 }
 
+/***
+Welcome Styles
+ */
 
+img[alt="welcome to my homepage"]{
+	display: block;
+	margin: 0 auto 2rem;
+}
 
+.instructions-wrapper {
+	display: flex;
+	align-items: flex-start;
+	border: 3px solid black;
+	padding: 20px;
+}
 
+.instructions-wrapper img {
+	width: 250px;
+}
 
+.instructions-content {
+	flex: 1;
+	padding-right: 2rem;
+}
+
+.instructions-content h2 {
+	margin-top: 0;
+}
+
+/***
+About Me Styles
+ */
+
+section.about-me {
+	background-color: blue;
+	color: white;
+}
+
+.about-me img {
+	width: 300px;
+	float: left;
+	margin-right: 2rem;
+	border: 3px solid white;
+}
+
+.about-me p span {
+	color: yellow;
+	font-style: italic;
+}
 
 
 
