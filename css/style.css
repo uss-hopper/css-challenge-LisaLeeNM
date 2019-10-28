@@ -5,6 +5,28 @@
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
 ******************************************************/
+/***
+Global Styles
+ */
+
+body {
+	font-family: monospace, "Courier New";
+}
+
+section {
+	padding: 2.75rem 0;
+}
+
+/***
+Header Styles
+ */
+
+header {
+	background-color: #333;
+	color: lime;
+}
+
+
 html, body {
 	margin: 0;
 	box-sizing: border-box;
@@ -74,6 +96,7 @@ h1 {
 em {
 	display: inline;
 	font-family: Arial, serif;
+	padding-left: 20px;
 }
 
 #img-welcome {
@@ -110,6 +133,7 @@ h2 {
 
 .about-me h2 {
 	float: right;
+	text-align: left;
 }
 
 .about-me p {
@@ -131,7 +155,7 @@ table {
 }
 
 td, th {
-	background-color: rgba(64, 66, 68, 0.82);
+	background-color: rgba(44, 44, 46, 0.88);
 	padding: 15px;
 	text-align: left;
 }
