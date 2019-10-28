@@ -67,12 +67,17 @@ body {
 
 h1 {
 	display: inline;
-	font: bold;
+	font-style: bold;
+	font-family: Courier, sans-serif;
 }
 
 em {
 	display: inline;
-	font-family: "Apple Chancery";
+	font-family: Arial, serif;
+}
+
+#img-welcome {
+	align-content: center;
 }
 
 header {
@@ -81,26 +86,40 @@ header {
 	padding: 25px
 }
 
-.about-me {
-	background-color: blue;
-	text-align: left;
-	/* padding-top: 30px;
-	padding-bottom: 30px;
-	 */
-}
-
-.instructions-content, h2 {
-	text-align: left;
-}
-
-.about-me h2 {
-	text-align: left;
-}
-
 h2 {
 	text-align: right;
 }
 
+.instructions-wrapper {
+	border-style: solid;
+	border-width: 5px;
+	border-color: rgb(0, 0, 0);
+	padding: 45px;
+}
+
+#img-janeway {
+	float: right;
+}
+
+.about-me {
+	background-color: blue;
+	color: white;
+	padding-top: 40px;
+	padding-bottom: 20px;
+}
+
+.about-me h2 {
+	float: right;
+}
+
+.about-me p {
+	color: whitesmoke;
+}
+
+span {
+	font-style: italic;
+	color: #faeebf;
+}
 .form-wrapper, h2 {
 	text-align: left;
 }
@@ -112,7 +131,7 @@ table {
 }
 
 td, th {
-	background-color: rgba(39, 40, 41, 0.96);
+	background-color: rgba(64, 66, 68, 0.82);
 	padding: 15px;
 	text-align: left;
 }
@@ -121,12 +140,6 @@ img.center {
 	display: block;
 	margin-left: auto;
 	margin-right: auto;
-}
-
-.instructions-wrapper {
-	border: 5px;
-	border-color: black;
-	text-align: left;
 }
 
 .form-wrapper {
